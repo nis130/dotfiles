@@ -1,0 +1,77 @@
+{
+    "editor.inlineSuggest.enabled": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "yaml": true,
+        "java": false
+    },
+    "gitlens.codeLens.enabled": false,
+    "editor.minimap.enabled": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "cph.general.defaultLanguage": "cpp",
+    "files.exclude": {
+        "**/.trunk/*out": true
+    },
+    "trunk.trunkGrayOutNonBlockingIssues": false,
+    "files.watcherExclude": {
+        "**/.trunk/*out": true
+    },
+    "python.formatting.provider": "black",
+    "workbench.editor.enablePreview": false,
+    "quarkus.tools.alwaysShowWelcomePage": false,
+    "cSpell.userWords": [
+        "Airbyte",
+        "datasources",
+        "fivetran",
+        "Organisation",
+        "organisations",
+        "Substitutor",
+        "topo"
+    ],
+    "workbench.colorTheme": "Vim Dark Hard",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "vim.neovimConfigPath": "~/.config/nvim/init.lua",
+    "vim.neovimPath": "/opt/homebrew/bin/nvim",
+    "vim.neovimUseConfigFile": true,
+    "vim.insertModeKeyBindings": [
+        { //exit insert mode
+          "before": [
+            "j",
+            "k"
+          ],
+          "after": [
+            "<Esc>"
+          ]
+        }
+    ],
+    "cloudcode.duetAI.project": "localeai-314712",
+    "cloudcode.project": "localeai-314712",
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "quarkus.tools.debug.terminateProcessOnExit": "Always terminate",
+    "cmake.showOptionsMovedNotification": false,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "java.jdt.ls.androidSupport.enabled": "off",
+    "java.import.maven.offline.enabled": true,
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.jdt.ls.vmargs": "-Dlombok.disableConfig=true",
+    "debug.onTaskErrors": "debugAnyway",
+    "continue.enableTabAutocomplete": false,
+    "redhat.telemetry.enabled": false,
+    "editor.fontSize": 10,
+    "vim.commandLineModeKeyBindings": [
+        
+    ],
+}
